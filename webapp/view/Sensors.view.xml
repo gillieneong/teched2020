@@ -12,11 +12,11 @@
     items="{path: 'sensorModel>/sensors', sorter: {path:'customer', group:true, descending: false}}"
     noDataText="No sensors">
         <f:customLayout>
-            <grid:GridBoxLayout/>
+            <grid:GridBoxLayout id="_IDGenGridBoxLayout1"/>
         </f:customLayout>
         <f:items>
-            <CustomListItem>
-            <Title text="{sensorModel>location}"/>
+            <CustomListItem id="_IDGenCustomListItem1">
+            <Title id="_IDGenTitle1" text="{sensorModel>location}"/>
             </CustomListItem>
         </f:items>
     </f:GridList>
